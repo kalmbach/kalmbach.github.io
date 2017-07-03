@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="wc-container">
+    <div class="column one">
+      <h6>Links</h6>
+      <ul class="menu">
+          <li><a href="{{ '/code' | prepend: site.baseurl | prepend: site.url }}">Code</a></li>
+          <li><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
+          <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a></li>
+      </ul>
+    </div>
+    <div class="column two">
+      <h6>Social</h6>
+      <ul class="social-media">
+        {% if site.twitter_username %}
+        <li>
+          <a title="{{ site.twitter_username }} on Twitter" 
+             href="https://twitter.com/{{ site.twitter_username }}" 
+             class="twitter wc-img-replace" target="_blank">Twitter</a>
+        </li>
+        {% endif %}
+
+        {% if site.github_username %}
+        <li>
+          <a title="{{ site.github_username }} on Github" 
+             href="https://github.com/{{ site.github_username }}" 
+             class="github wc-img-replace" target="_blank">Github</a>
+        </li>
+        {% endif %} 
+      </ul>
+    </div>
+  </div>
+</footer>
