@@ -6,3 +6,7 @@
   color: #333333; 
   background-color: #F5F5F5; 
 }
+
+.lh-date {
+  line-height: 2rem;
+}
