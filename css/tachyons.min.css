@@ -10,3 +10,14 @@
 .lh-date {
   line-height: 2rem;
 }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff725c;
+}
+
+.brief {
+  display: block;
+}
+
